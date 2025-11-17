@@ -6,4 +6,6 @@
 	helper = !gh auth git-credential
 [user]
 	name = Yongtong Liu
-	email = Liu@yongtong.me
+	email = ytliu@quant360.com
+[init]
+	defaultBranch = main
