@@ -7,5 +7,19 @@
 [user]
 	name = Yongtong Liu
 	email = ytliu@quant360.com
+	signingkey = BF0B00BD9767DCC9
 [init]
 	defaultBranch = main
+[credential]
+	helper = manager-core
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = secretservice
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "http://192.168.11.15:40080"]
+	provider = generic
+[commit]
+	gpgsign = true
+[credential "https://gitee.com"]
+	provider = generic

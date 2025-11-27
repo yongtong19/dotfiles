@@ -76,8 +76,8 @@ plugins=(
     fast-syntax-highlighting
     fzf
     git
-    heroku
     kubectl
+    pj
     vi-mode
     zsh-autosuggestions
 )
